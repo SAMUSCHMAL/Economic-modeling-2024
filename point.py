@@ -24,5 +24,6 @@ for _ in range(5):
     points.append(Point(random.randint(-100,100),
                         random.randint(-100, 100)))
 
+
 for point in points:
     print(f"p{point.x},{point.y})")
